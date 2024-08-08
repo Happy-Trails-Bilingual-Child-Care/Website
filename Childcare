@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Trails Bilingual Childcare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f5e9;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #388e3c;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #2e7d32;
+        }
+        .forest-bg {
+            background-image: url('https://example.com/forest.jpg'); /* Replace with a real image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4em 2em;
+            text-align: center;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        .contact-info {
+            font-size: 1.2em;
+            margin-top: 1em;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #4caf50;
+            color: white;
+            padding: 1em 2em;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Happy Trails Bilingual Childcare
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#childcare">Our Childcare</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home" class="forest-bg">
+        <h2>Welcome to Happy Trails Bilingual Childcare</h2>
+        <p>Your child's home away from home. Located in the heart of Aumsville, Oregon, we offer a nurturing and educational environment for your little ones.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! My name is Denise Villegas. I am a mother of two wonderful children, a 7-year-old son and an 11-year-old daughter. We love camping, sports, and animals, and we've been proud residents of Aumsville for 12 years. I'm in the process of becoming a registered family home provider, and I'm excited to offer a bilingual childcare experience where your child can learn and grow in both English and Spanish. There's no pressure for your child to learn Spanish, but it would be a wonderful benefit if they do!</p>
+    </section>
+
+    <section id="childcare">
+        <h2>Our Childcare</h2>
+        <p>At Happy Trails Bilingual Childcare, we provide a warm, family-like atmosphere where your child will feel safe, loved, and encouraged to explore the world around them. Our facility is bilingual, and we incorporate both English and Spanish into our daily routines. We believe in learning through play and ensure that every child gets the attention they need to thrive.</p>
+        <p>We accept ERDC payments and are open from 6:00 AM to 5:00 PM. Come visit us and see if we're the right fit for your family!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you'd like to schedule a meet and greet to see our childcare and meet me, please reach out! I'd love to get to know you and your child better.</p>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 971-340-8968</p>
+            <p><strong>Email:</strong> happytrailsbilingualchildcare@gmail.com</p>
+        </div>
+        <div class="contact-form">
+            <h3>Contact Form</h3>
+            <form action="mailto:happytrailsbilingualchildcare@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Happy Trails Bilingual Childcare | Aumsville, Oregon
+    </footer>
+</body>
+</html>
